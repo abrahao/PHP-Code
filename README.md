@@ -1,2 +1,2 @@
 # PHP-Code
-# Diretório destinado a códigos PHP
+## Diretório destinado a códigos PHP
