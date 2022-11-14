@@ -1,25 +1,4 @@
-# Prova PHP IST
-
-O desenvolvimento da prova consiste em desenvolver um sistema, conforme especificado nos protótipos abaixo.
-
-**Cadastro de pessoa**
-
-![prova-php-ist](imagens/pessoa.png)
-
-**Cadastro de conta**
-
-![prova-php-ist](imagens/conta.png)
-
-**Cadastro de movimentação**
-
-![prova-php-ist](imagens/movimentacao.png)
-
-Para a realização da prova, deve-se utilizar a linguagem de programação **PHP** e o banco de dados **MySql**.
-
-Alguns pontos em relação ao desenvolvimento: 
-- Fique a vontade para adicionar bibliotecas e ferramentas externas, caso ache necessário.
-- O arquivo de exemplo de conexão com o banco de dados, está no arquivo `app/index.php`.
-- Organize os arquivos do projeto de uma forma adequada (MVC).
+# ProjetoMy_Bank
 
 ## Configuração do Projeto
 
@@ -43,5 +22,3 @@ Abaixo os dados para testar a conexão com o banco de dados:
 - database: ist
 - user: root
 - password: 123.456
-
-No mais, desenvolva com qualidade e boa prova! :)
