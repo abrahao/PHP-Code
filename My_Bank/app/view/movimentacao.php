@@ -116,13 +116,13 @@ require_once '../assets/elementos/header.php';
         <div>
             <br>
             <label for="">Valor</label>
-            <input type="text" name="endereco" id="endereco">
+            <input type="number" name="endereco" id="endereco">
         </div>
         <div>
             <br>
             <label for="">Depositar/Retirar
                 <select name="" id="">
-                <option value=""></option>
+                <option value="">Selecione</option>
                 <option value="">Depositar</option>
                 <option value="">Retirar</option>
             </select>

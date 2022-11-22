@@ -1,6 +1,5 @@
 <?php
 
-
 include_once '../assets/elementos/head_home.php';
 
 $dbuser = $_ENV['MYSQL_USER'];
