@@ -8,11 +8,11 @@ $pdo = require('../connect.php');
 
 $sql = 'SELECT * FROM cadastro';
 
-require __DIR__ . './../../assets/header2.php';
+require __DIR__ . './../../assets/header3.php';
 
 echo '<h3> Pessoas </h3>';
 
 foreach ($pdo->query($sql) as $key => $value) {
 
-    echo $value['personal_name'] . '<br>';
+    echo 'Id ->' . $value['idcadastro'] . ' |  Nome -> ' . $value['personal_name'] . '<br>';
 }
