@@ -4,6 +4,8 @@
     <a class="active" href="#">Home</a>
     <a href="./src/cadastro.php">Cadastrar</a>
     <a href="./src/crud/list.php">Listar</a>
+    <a href="./src/atualizar.php">Atualizar</a>
+    <a href="./src/excluir.php">Excluir</a>
   </div>
 </div>
 </body>
