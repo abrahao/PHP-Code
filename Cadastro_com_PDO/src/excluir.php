@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Cadastro para testar o PDO</title>
+  <link rel="stylesheet" href="../../assets/style.css">
   <style type="text/css">
     .errorMsg {
       border: 1px solid red;
@@ -60,7 +61,9 @@ if (isset($_POST['Salvar'])) {
   <?php if (isset($errorMsg)) {
     echo "<p class='message'>" . $errorMsg . "</p>";
   } ?>
-
+<?php
+require __DIR__ . '../../assets/header2.php';
+?>
   <form name="registration" id="registration" method="post" action="./crud/delete.php">
     <table width="300" border="0" align="center" cellpadding="4" cellspacing="1">
       <tr>
