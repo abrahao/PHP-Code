@@ -11,6 +11,9 @@ switch ($url) {
     case '/pessoa':
         PessoaController::index();
         break;
+        case '/pessoa/list':
+            PessoaController::index();
+            break;
     case '/pessoa/form':
         PessoaController::form();
         break;

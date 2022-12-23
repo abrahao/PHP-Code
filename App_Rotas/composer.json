@@ -1,0 +1,18 @@
+{
+    "name": "abrahaoeneias/app_rotas",
+    "description": "App de gerenciamento de atendimento psicologico",
+    "autoload": {
+        "psr-4": {
+            "Abrahaoeneias\\AppRotas\\": "src/",
+            "App\\": "app/",
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "require": {}
+}

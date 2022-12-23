@@ -5,7 +5,7 @@ class PessoaDAO
     private $conexao;
     public function __construct()
     {
-        $dsn = "mysql:host=localhost:3307;dbname=db_mvc";
+        $dsn = "mysql:host=localhost:3306;dbname=db_mvc";
         $username = 'root';
         $password = 'root';
         $this->conexao = new PDO($dsn, $username, $password);

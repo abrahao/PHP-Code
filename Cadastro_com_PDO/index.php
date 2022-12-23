@@ -11,4 +11,8 @@
 <?php
 include_once './assets/header.php';
 ?>
+<div class="main">
+    <h1>Tela Inicial</h1>
+</div>
+</body>
 </html>
